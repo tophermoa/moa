@@ -1,0 +1,23 @@
+name: Vercel Release
+
+on:
+  push:
+    branches:
+      - preview
+      - main
+
+jobs:
+  deploy:
+    if: contains(github.event.head_commit.message, 'release:')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Preview Deployment
+        if: github.ref == 'refs/heads/preview'
+        run: |
+          curl -X POST ${{ secrets.VERCEL_PREVIEW_HOOK }}
+
+      - name: Trigger Production Deployment
+        if: github.ref == 'refs/heads/main'
+        run: |
+          curl -X POST ${{ secrets.VERCEL_PROD_HOOK }}
