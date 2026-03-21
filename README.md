@@ -1,5 +1,5 @@
 
-# Gokul's Digital Canvas
+# Moa's Portfolio
 
 ![Digital Canvas Deploy](https://deploy-badge.vercel.app/?url=https://digital-canvas.vercel.app&name=digital-canvas)
 
@@ -127,9 +127,7 @@ npm run lint
 
 🔗 **Live Website**
 
-```
-https://www.gokul.ink/
-```
+
 
 ---
 
@@ -144,8 +142,8 @@ https://www.gokul.ink/
 
 # 👨‍💻 Author
 
-**Gokul**  
-Software Engineer
+**Topher Moa**  
+Front-End Developer
 
 GitHub  
-https://github.com/gokul-369
+https://github.com/tophermoa

@@ -59,13 +59,14 @@ function Hero({ theme, colors }: HeroProps) {
               {hero.punchLine}
             </h3>
 
-            <h4 className={`mt-4 lg:text-lg text-xs ${theme.textSecondary}`}>
+            <h4 className={`mt-4 lg:text-lg text-xs`} style={{ color: "#9CA3AF" }}>
               {hero.shortDescription}
             </h4>
           </Fade>
           <Fade variant="fade-up" delay={500} className={"text-center"}>
             <div
-              className={`${theme.textSecondary} max-w-2xl lg:text-base text-xs mx-auto leading-relaxed`}
+              className={`max-w-2xl lg:text-base text-xs mx-auto leading-relaxed`}
+              style={{ color: "#9CA3AF" }}
               dangerouslySetInnerHTML={{ __html: hero.longDescription }}
             />
             <div className="inline-flex gap-5 items-center justify-center mt-10">

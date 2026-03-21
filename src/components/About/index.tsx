@@ -1,7 +1,7 @@
 import BlurText from "../../animations/Text/BlurText";
 import type { ThemeClassSet } from "../../types";
 import ProfileCard from "../ProfileCard/ProfileCard";
-import ProfilePicture from "../../assets/profile.png";
+import ProfilePicture from "../../assets/profile.jpg";
 import { bio, educationItems, interests } from "../../data";
 import TextType from "../../animations/Text/TypeWriter";
 import { useRef, useState } from "react";
@@ -60,8 +60,8 @@ function About({ theme }: { theme: ThemeClassSet }) {
           <ProfileCard
             className="h-full mx-auto col-span-2 lg:col-span-1 lg:mx-0 text-center lg:w-[330px] px-5 lg:px-0 w-full touch-pan-y"
             name="Moa"
-            title="Software Engineer"
-            handle="moa"
+            title="Front-End Developer"
+            handle="tophermoa"
             status="Github"
             contactText="View"
             avatarUrl={ProfilePicture}
@@ -69,7 +69,7 @@ function About({ theme }: { theme: ThemeClassSet }) {
             enableTilt={true}
             enableMobileTilt={true}
             onContactClick={() => {
-              window.location.href = "https://github.com/gokul-369";
+              window.location.href = "https://github.com/tophermoa";
             }}
             behindGlowColor="hsla(173, 100%, 70%, 0.6)"
             behindGlowEnabled
@@ -131,10 +131,11 @@ function About({ theme }: { theme: ThemeClassSet }) {
                       I am also{" "}
                       <TextType
                         text={[
-                          "An Engineer",
-                          "A Photographer",
-                          "An F1 enthusiast",
-                          "A Gym rat",
+                          "A SCORM Engineer",
+                          "A Music Enthusiast",
+                          "A Football Enthusiast",
+                          "A Gym Rat",
+                          "Interested in Business & Finance"
                         ]}
                         typingSpeed={75}
                         pauseDuration={1500}
@@ -156,7 +157,7 @@ function About({ theme }: { theme: ThemeClassSet }) {
                   className={`flex mt-10 gap-10  ${theme.textPrimary} items-center justify-start`}
                 >
                   <a
-                    href="https://linkedin.com/in/moa"
+                    href="https://www.linkedin.com/in/christover-moa"
                     target="blank"
                     className="hover:text-indigo-500"
                   >
@@ -164,7 +165,7 @@ function About({ theme }: { theme: ThemeClassSet }) {
                   </a>
                   <a
                     className="hover:text-indigo-500"
-                    href="https://github.com/moa"
+                    href="https://github.com/tophermoa"
                     target="blank"
                   >
                     <FaGithub />

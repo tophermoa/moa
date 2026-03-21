@@ -47,30 +47,29 @@ export const navLinks: formField[] = [
 ];
 
 export const hero: heroType = {
-  title: `Welcome to <span class="text-indigo-500">Moa&apos;s </span> digital canvas`,
-  punchLine: "Interfaces that breathe.",
+  title: `Welcome to <span class="text-indigo-500">Moa&apos;s </span> Portfolio`,
+  punchLine: "Where interfaces meet intention.",
   shortDescription:
-    "A software engineer who is solving for scale. Building for users. Refining for impact.",
-  longDescription: ` Hi, I&apos;m <span class="dark:text-white text-black">Moa</span>, a software
-                          engineer with a passion for crafting seamless user interfaces that
+    "A Front-End Developer who is solving for scale. Building for users. Refining for impact.",
+  longDescription: ` Hi, I&apos;m <span class="dark:text-white text-black">Moa</span>, a front-end developer with a passion for crafting seamless user interfaces that
                           blend form and function. I&apos;m keen on building products that
                           not only meet user needs but also delight them.`,
 };
 export const bio: BioType = {
   name: "Moa",
-  title: "Software Engineer",
+  title: "Front-End Developer",
   description:
-    "Working at the intersection of engineering and design, I build frontends that are predictable for developers, intuitive for users, and fast in production. I care deeply about structure, motion, and architecture, ensuring interfaces stay smooth and reliable under real-world traffic.",
+    "I build scalable front-end systems where performance, structure, and user experience meet. From interactive learning platforms to real-world production environments, I focus on creating reliable, efficient, and maintainable interfaces.",
 };
 
 export const socialLinks: formField[] = [
   {
     name: "LinkedIn",
-    value: "https://www.linkedin.com/in/moa",
+    value: "https://www.linkedin.com/in/christover-moa",
   },
   {
     name: "GitHub",
-    value: "https://github.com/moa",
+    value: "https://github.com/tophermoa",
   },
 ];
 

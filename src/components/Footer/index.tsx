@@ -1,6 +1,6 @@
 import { FaDev, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import avatar from "../../assets/profile.png";
+import avatar from "../../assets/profile.jpg";
 import { HashLink } from "react-router-hash-link";
 import { manifest } from "../../routes/manifest";
 
@@ -104,7 +104,7 @@ function Footer() {
 
             <div className="flex gap-5 text-gray-700 dark:text-white/70">
               <a
-                href="https://linkedin.com/in/moa"
+                href="https://www.linkedin.com/in/christover-moa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
@@ -112,7 +112,7 @@ function Footer() {
                 <FaLinkedin size={18} />
               </a>
               <a
-                href="https://github.com/moa"
+                href="https://github.com/tophermoa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
@@ -135,17 +135,7 @@ function Footer() {
               </a>
             </div>
 
-            <div className="text-sm flex flex-col gap-4 text-gray-700 dark:text-white/60">
-              Latest Dev article
-              <a
-                href="https://dev.to/moa"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-900 dark:text-white/70 hover:text-indigo-600 dark:hover:text-white transition"
-              >
-                <FaDev size={20} />
-              </a>
-            </div>
+
           </div>
         </div>
 
