@@ -47,17 +47,17 @@ export const navLinks: formField[] = [
 ];
 
 export const hero: heroType = {
-  title: `Welcome to <span class="text-indigo-500">Gokul&apos;s </span> digital canvas`,
+  title: `Welcome to <span class="text-indigo-500">Moa&apos;s </span> digital canvas`,
   punchLine: "Interfaces that breathe.",
   shortDescription:
     "A software engineer who is solving for scale. Building for users. Refining for impact.",
-  longDescription: ` Hi, I&apos;m <span class="dark:text-white text-black">Gokul</span>, a software
+  longDescription: ` Hi, I&apos;m <span class="dark:text-white text-black">Moa</span>, a software
                           engineer with a passion for crafting seamless user interfaces that
                           blend form and function. I&apos;m keen on building products that
                           not only meet user needs but also delight them.`,
 };
 export const bio: BioType = {
-  name: "Gokul",
+  name: "Moa",
   title: "Software Engineer",
   description:
     "Working at the intersection of engineering and design, I build frontends that are predictable for developers, intuitive for users, and fast in production. I care deeply about structure, motion, and architecture, ensuring interfaces stay smooth and reliable under real-world traffic.",
@@ -66,11 +66,11 @@ export const bio: BioType = {
 export const socialLinks: formField[] = [
   {
     name: "LinkedIn",
-    value: "https://www.linkedin.com/in/gokulrao369",
+    value: "https://www.linkedin.com/in/moa",
   },
   {
     name: "GitHub",
-    value: "https://github.com/gokul-369",
+    value: "https://github.com/moa",
   },
 ];
 
@@ -391,7 +391,7 @@ export const testimonials: testimonial[] = [
     location: "Chennai, India",
     company: "TCS",
     testimonial:
-      "It is a great experience working with Gokul, his dedication, postive attitude and commitment to delivering quality work truly stand out, he is very good when it comes to on time deliverables and maintaining good coordination with teams and clients.",
+      "It is a great experience working with Moa, his dedication, postive attitude and commitment to delivering quality work truly stand out, he is very good when it comes to on time deliverables and maintaining good coordination with teams and clients.",
   },
   {
     name: "Bharathi Pachayappan",
@@ -409,7 +409,7 @@ export const testimonials: testimonial[] = [
     location: "Ajax, Cannada",
     company: "Inovyne",
     testimonial:
-      "I worked with Gokul and what stood out immediately was his genuine passion for coding. He enjoys digging into problems, understanding how things work, and finding clean solutions rather than just getting something to “work.” He’s reliable, easy to collaborate with, and takes real ownership of his work. Any team that values curiosity and solid engineering would benefit from having him.",
+      "I worked with Moa and what stood out immediately was his genuine passion for coding. He enjoys digging into problems, understanding how things work, and finding clean solutions rather than just getting something to “work.” He’s reliable, easy to collaborate with, and takes real ownership of his work. Any team that values curiosity and solid engineering would benefit from having him.",
     image:
       "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/lavanya.png",
   },
@@ -419,7 +419,7 @@ export const testimonials: testimonial[] = [
     location: "Edinburg, Scotland",
     company: "Lloyds Bank",
     testimonial:
-      "It was a pleasure working with Gokul. He consistently demonstarted a strong desire to learn and took initiative in addressing key challenges. His technical expertise was evident across various tasks and readily provided thoughtful support. As the team lead. I value his his collaborative spirit, effective problem solving and the positive impact he had on our deliverables.",
+      "It was a pleasure working with Moa. He consistently demonstarted a strong desire to learn and took initiative in addressing key challenges. His technical expertise was evident across various tasks and readily provided thoughtful support. As the team lead. I value his his collaborative spirit, effective problem solving and the positive impact he had on our deliverables.",
   },
   {
     name: "JM Mcghee",
@@ -427,14 +427,14 @@ export const testimonials: testimonial[] = [
     location: "Edinburg, Scotland",
     company: "Lloyds Bank",
     testimonial:
-      "It’s rare to come across an engineer who combines such eagerness to learn, strong attention to detail, and a genuine willingness to go the extra mile to find solutions. Gokul is one of those engineers",
+      "It’s rare to come across an engineer who combines such eagerness to learn, strong attention to detail, and a genuine willingness to go the extra mile to find solutions. Moa is one of those engineers",
   },
   {
     name: "Steephen",
     jobTitle: "Software Engineer",
     location: "Chennai, India",
     company: "TCS",
-    testimonial: `I had the opportunity to work closely with Gokul on our project, and his front-end expertise consistently stood out. He has a strong eye for detail and a deep understanding of building responsive, user friendly interfaces.
+    testimonial: `I had the opportunity to work closely with Moa on our project, and his front-end expertise consistently stood out. He has a strong eye for detail and a deep understanding of building responsive, user friendly interfaces.
     What impressed me most was his ability to translate complex backend requirements into clean, intuitive UI experiences. He is highly collaborative, proactive in communication, and always focused on performance and maintainability.
     Any team would benefit from his technical skill, ownership mindset, and commitment to delivering high-quality work.`,
     image:

@@ -44,14 +44,14 @@ function Footer() {
             <div className="flex items-center gap-5">
               <img
                 src={avatar}
-                alt="Gokul"
+                alt="Moa"
                 className="h-20 w-20 rounded-xl object-cover grayscale
                        bg-indigo-100/40 dark:bg-white/10"
               />
 
               <div>
                 <h3 className="text-2xl font-mono font-semibold tracking-tight">
-                  Gokul
+                  Moa
                 </h3>
                 <p className="mt-2 text-sm text-gray-700 dark:text-white/60 max-w-sm leading-relaxed">
                   Building thoughtful digital experiences with clean code and
@@ -104,7 +104,7 @@ function Footer() {
 
             <div className="flex gap-5 text-gray-700 dark:text-white/70">
               <a
-                href="https://linkedin.com/in/gokul-c-40773a1b6"
+                href="https://linkedin.com/in/moa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
@@ -112,7 +112,7 @@ function Footer() {
                 <FaLinkedin size={18} />
               </a>
               <a
-                href="https://github.com/gokul-369"
+                href="https://github.com/moa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
@@ -120,13 +120,13 @@ function Footer() {
                 <FaGithub size={18} />
               </a>
               <a
-                href="mailto:gokul369@outlook.com"
+                href="mailto:moa@outlook.com"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
               >
                 <MdOutlineMailOutline size={18} />
               </a>
               <a
-                href="https://www.instagram.com/gokul__369/"
+                href="https://www.instagram.com/moa/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
@@ -138,7 +138,7 @@ function Footer() {
             <div className="text-sm flex flex-col gap-4 text-gray-700 dark:text-white/60">
               Latest Dev article
               <a
-                href="https://dev.to/gokul369"
+                href="https://dev.to/moa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-900 dark:text-white/70 hover:text-indigo-600 dark:hover:text-white transition"
@@ -161,7 +161,7 @@ function Footer() {
         {/* Bottom Row */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center text-xs gap-3">
           <span className="text-gray-500 dark:text-white/40">
-            © {new Date().getFullYear()} Gokul. No rights reserved.
+            © {new Date().getFullYear()} Moa. No rights reserved.
           </span>
           <span className="text-gray-500 dark:text-white/40">
             Made with{" "}
