@@ -88,9 +88,6 @@ function Footer() {
                 Canvas
               </h4>
               <div className="flex flex-col gap-2 text-sm text-gray-700 dark:text-white/60">
-                <HashLink to={manifest.gallery}>Gallery</HashLink>
-                <HashLink to={manifest.awards}>Awards</HashLink>
-                <HashLink to={manifest.testimonials}>Testimonials</HashLink>
                 <HashLink to={manifest.rolemodels}>Inspirations</HashLink>
               </div>
             </div>
@@ -120,18 +117,10 @@ function Footer() {
                 <FaGithub size={18} />
               </a>
               <a
-                href="mailto:moa@outlook.com"
+                href="mailto:moachristover@gmail.com"
                 className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
               >
                 <MdOutlineMailOutline size={18} />
-              </a>
-              <a
-                href="https://www.instagram.com/moa/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-indigo-600 dark:hover:text-white transition hover:-translate-y-0.5"
-              >
-                <FaInstagram size={18} />
               </a>
             </div>
 

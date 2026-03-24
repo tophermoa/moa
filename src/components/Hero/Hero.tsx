@@ -8,7 +8,7 @@ import { HashLink } from "react-router-hash-link";
 
 import { IoChevronDownOutline } from "react-icons/io5";
 import { useNavigate } from "react-router";
-import { useAppContext } from "../../context/AppContext";
+// import { useAppContext } from "../../context/AppContext";
 import { LuMail } from "react-icons/lu";
 import { HiOutlineBriefcase } from "react-icons/hi2";
 import { isMobile } from "../../utils/styleFactory";
@@ -20,7 +20,6 @@ type HeroProps = {
 
 function Hero({ theme, colors }: HeroProps) {
   const navigate = useNavigate();
-  const { openCollaborate } = useAppContext();
   return (
     <section id={"home"} className={`h-dvh relative w-full ${theme.bgPrimary}`}>
       <div className="fixed top-0 h-[100dvh] w-full left-0 right-0 -z-0">
@@ -74,7 +73,7 @@ function Hero({ theme, colors }: HeroProps) {
                 text="Get in touch"
                 variant="primary"
                 icon={<LuMail className="ml-1" />}
-                onClick={openCollaborate}
+                onClick={() => window.location.href = "mailto:moachristover@gmail.com"}
               />
               <Button
                 text="View Work"

@@ -15,17 +15,14 @@ import type {
 import { getImageSet } from "../utils/getImageSrc";
 
 import {
-  HiOutlineUsers,
   HiOutlineStar,
   HiOutlineCodeBracketSquare,
-  HiOutlineFlag,
-  HiOutlineTrophy,
   HiOutlineAcademicCap,
-  HiOutlineUserGroup,
+  HiOutlineShieldCheck,
+  HiOutlineSquare3Stack3D
 } from "react-icons/hi2";
 
 import { IoLogoElectron } from "react-icons/io5";
-import { HiOutlineBadgeCheck } from "react-icons/hi";
 
 export const navLinks: formField[] = [
   {
@@ -75,73 +72,50 @@ export const socialLinks: formField[] = [
 
 export const workExperiences: experience[] = [
   {
-    company: "Tata Consultancy Services",
-    role: "Software Engineer",
-    duration: "April 2025 - Present",
+    company: "PT Digital Animasi Asia",
+    role: "Front-End Developer",
+    duration: "December 2020 - Present",
     description: [
-      "One of the Designated Front-End Engineers in Lloyds Banking Group project, one of the UK’s leading financial institutions.",
-      "Contributed to the Card Controls team, developing Single Page Applications (SPAs) that enable customers to manage and restrict card usage and limits.",
-      "Currently working on VISA's click to pay team, that enables customer to pay using their VISA card",
-      "Actively involved in building AI-driven solutions, including developing MCP servers, designing unique tools, and crafting elicitations for seamless integration with MCP clients.",
+      "Developed interactive learning content using vanilla JavaScript, including quizzes and informational modules.",
+      "Integrated SCORM with Moodle-based LMS platforms for seamless learning content deployment.",
+      "Designed reusable templates for interactive learning content to streamline future development.",
+      "Conducted research on e-learning platforms to ensure compatibility with the company’s implemented system architecture.",
+      "Performed vulnerability testing on all interactive learning templates using OWASP ZAP.",
+      "Created, developed, and maintained the Moleawiz Web platform, an e-learning–based solution.",
+      "Researched and optimized streaming processes within the e-learning platform to enable integration between Moodle and internal databases using SCORM APIs.",
+      "Conducted penetration testing on the e-learning web platform using OWASP ZAP.",
+      "Restructured data communication processes for the streaming feature within the e-learning platform to comply with SCORM API standards.",
     ],
   },
   {
-    company: "Paperflite",
-    role: "Senior Software Engineer",
-    duration: "January 2025 - March 2025",
+    company: "Tongkonan Antapani Clinic",
+    role: "Programmer Desktop",
+    duration: "August 2018 - Mei 2019",
     description: [
-      "Worked on product revamp, migrating the legacy code to new code base, ensuring the compatibility of the codebases.",
-      "Developed new nodules with real time analytics and data visualization",
-      "Actively involved in organization level AI hackathon to build an AI based CLI that automates unit case generation using gemini 3.1",
-    ],
-  },
-  {
-    company: "Paperflite",
-    role: "Software Engineer",
-    duration: "August 2024 - January 2025",
-    description: [
-      "Involved in development of a product by working on new features that involved integrating AI product named 'Seek' built on top of open AI into our product ",
-      "Fixed high priority customer tickets ",
-      "Involved in fixing high priority defect there by reducing the overall bug count and ensuring the quality of the product",
-    ],
-  },
-  {
-    company: "Novac Technology Solutions",
-    role: "Associate Project Manager",
-    duration: "April 2024 - August 2024",
-    description: [
-      "Lead a team of 5 software developers in developing modules with payment related logics ",
-      "Involved in Scrum, delivering modules with high quality code on a weekly sprint ",
-      "Involved in Code reviews, reviewing peer code to achieve optimum performance ",
-      "Involved in requirement discussion meetings, and understood key business goals thereby suggesting my ideas to the team in achieving the same",
-    ],
-  },
-  {
-    company: "Novac Technology Solutions",
-    role: "Senior Software Engineer",
-    duration: "July 2022 - April 2024",
-    description: [
-      "Actively involved in a team in developing various modules like Customer Portal, Admin Portal,Core business Application for Shriram Chits,  with payment gateways,Reports,and other finance related logics",
-      "Did various R&Ds on React and React libraries for Pdf generation,Charts, Payment gateways and so on",
-      "Worked on Reusable and scalable components in React",
-      "Assisted team members on various stages of SDLC",
-    ],
-  },
-  {
-    company: "Novac Technology Solutions",
-    role: "Software Engineer",
-    duration: "June 2021 - July 2022",
-    description: [
-      "Worked on submitting various POCs on technologies like React,Redux,Webpack, Signal R and so on.",
-      "Worked in a team,developing a CRM and core apps for Shriram Chits using React, Redux, Redux-saga, Axios and so on.",
-      "Involved in setting up a development environment for React applications with modular and clean code along with project structuring for seamless development.",
+      "Designed and developed a desktop-based system using Java (NetBeans IDE) for handling financial transactions and operational data.",
+      "Built an integrated inventory tracking module for pharmaceutical stock management with accurate and structured data handling.",
+      "Optimized data processing workflows, improving efficiency and minimizing human error in daily operations.",
     ],
   },
 ];
 
 export const skills: skill[][] = [
-  // Row 1 — Core Languages & Runtime (7)
   [
+    {
+      name: "HTML5",
+      imagePath:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+    },
+    {
+      name: "CSS3",
+      imagePath:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+    },
+    {
+      name: "SCSS",
+      imagePath:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+    },
     {
       name: "JavaScript",
       imagePath:
@@ -152,64 +126,22 @@ export const skills: skill[][] = [
       imagePath:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     },
-    {
-      name: "Node.js",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-    },
-    {
-      name: "HTML",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-    },
-    {
-      name: "CSS",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-    },
-    {
-      name: "SCSS",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
-    },
-    {
-      name: "Vite",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
-    },
   ],
-
-  // Row 2 — Frontend Frameworks & Styling (8)
   [
     {
-      name: "React",
+      name: "React.js",
       imagePath:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
     },
     {
-      name: "Next.js",
+      name: "Vue.js",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
     },
     {
-      name: "Redux",
+      name: "Node.js",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
-    },
-    {
-      name: "Redux Saga",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/reduxsaga.svg",
-    },
-    {
-      name: "Tailwind",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-    },
-    {
-      name: "Styled Components",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/styledcomponents/styledcomponents-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
     },
     {
       name: "jQuery",
@@ -217,38 +149,31 @@ export const skills: skill[][] = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg",
     },
     {
-      name: "Zod",
+      name: "Tailwind CSS",
       imagePath:
-        "	https://zod.dev/_next/image?url=%2Flogo%2Flogo-glow.png&w=256&q=100", // your imported logo
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      name: "Bootstrap",
+      imagePath:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+    },
+    {
+      name: "Ant Design",
+      imagePath:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg",
     },
   ],
-
-  // Row 3 — Tooling, Package Managers, Editor & API (8)
   [
     {
-      name: "Git",
+      name: "Redux",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
     },
     {
-      name: "GitHub",
+      name: "Axios",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
-    },
-    {
-      name: "GitHub Actions",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
-    },
-    {
-      name: "VS Code",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
-    },
-    {
-      name: "NPM",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
     },
     {
       name: "Bun",
@@ -256,97 +181,24 @@ export const skills: skill[][] = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg",
     },
     {
-      name: "Jest",
+      name: "Vite",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
     },
     {
-      name: "Postman",
+      name: "Webpack",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg", // import this
-    },
-  ],
-
-  // Row 4 — DevOps, Cloud & Backend Infra (8)
-  [
-    {
-      name: "Docker",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg",
     },
     {
-      name: "Vercel",
+      name: "NPM",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
     },
     {
-      name: "Jenkins",
+      name: "AJAX",
       imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg",
-    },
-    {
-      name: "GCP",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
-    },
-    {
-      name: "Nginx",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
-    },
-    {
-      name: "IIS",
-      imagePath:
-        "https://images.seeklogo.com/logo-png/48/1/microsoft-iis-logo-png_seeklogo-484624.png", // your imported logo
-    },
-    {
-      name: "Express",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/express.svg",
-    },
-    {
-      name: "SignalR",
-      imagePath:
-        "	https://dotnet.microsoft.com/blob-assets/images/illustrations/swimlane-azure-signalr-logo.svg", // your imported logo
-    },
-  ],
-
-  // Row 5 — Databases & AI / LLM Stack (7)
-  [
-    {
-      name: "MongoDB",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-    },
-    {
-      name: "Mongoose",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg",
-    },
-    {
-      name: "MCP",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/express.svg",
-    },
-    {
-      name: "Ollama",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/ollama.svg",
-    },
-    {
-      name: "Hugging Face",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/huggingface.svg",
-    },
-    {
-      name: "linux",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
-    },
-    {
-      name: "mac OS",
-      imagePath:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg",
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='55' font-family='sans-serif' font-weight='900' font-size='32' fill='%236B7280' text-anchor='middle' dominant-baseline='middle'>AJAX</text></svg>",
     },
   ],
 ];
@@ -452,84 +304,52 @@ export const testimonials: testimonial[] = [
 
 export const awards: achievement[] = [
   {
-    title: "Physics Symposium Medalist",
-    subTitle: "Won district‑level bronze medals in school physics symposium.",
-    year: "2017",
-    company: "SBMHSS",
-    icon: IoLogoElectron,
-    type: "award",
-  },
-  {
-    title: "Placement Coordinator",
-    company: "RKM Vivekananda College",
-    year: "2020–2021",
-    subTitle:
-      "Led placement activities and helped peers navigate hiring processes and opportunities.",
-    icon: HiOutlineUsers,
+    title: "Moleawiz Web Platform",
+    subTitle: "Built and maintained an end-to-end e-learning platform (Moleawiz) with SCORM integration and streaming capabilities.",
+    year: "2023-2024",
+    company: "",
+    icon: HiOutlineCodeBracketSquare,
     type: "highlight",
   },
   {
-    title: "Student Representative",
-    company: "RKM Vivekananda College",
-    year: "2020–2021",
-    subTitle:
-      "Served as class representative for a year, coordinating between students and faculty and helping resolve academic and administrative issues.",
-    icon: HiOutlineUserGroup,
-    type: "highlight",
-  },
-  {
-    title: "Ranked 1st in Department",
-    company: "RKM Vivekananda College",
-    year: "2018–2021",
-    subTitle:
-      "Graduated as the top-ranked student in my Computer Science department, with a consistent track record of academic excellence and leadership.",
+    title: "SCORM Integration Expertise",
+    subTitle: "Successfully integrated SCORM content with Moodle-based LMS for seamless learning deployment.",
+    year: "2020-now",
+    company: "",
     icon: HiOutlineAcademicCap,
     type: "highlight",
   },
   {
-    title: "Star of the Quarter",
-    company: "Noac Technology Solutions",
-    year: "2024",
-    subTitle:
-      "Got recognised for outstanding performance for the quarter Q1 2023 - 2024",
+    title: "Streaming Optimization",
+    subTitle: "Optimized streaming architecture for LMS content delivery, improving performance and compatibility.",
+    year: "2023-now",
+    company: "",
+    icon: IoLogoElectron,
+    type: "highlight",
+  },
+  {
+    title: "Security Testing",
+    subTitle: "Conducted vulnerability and penetration testing using OWASP ZAP to ensure platform security.",
+    year: "2022-2023",
+    company: "",
+    icon: HiOutlineShieldCheck,
+    type: "highlight",
+  },
+  {
+    title: "Reusable System / Template",
+    subTitle: "Designed reusable interactive learning templates to accelerate development and maintain consistency.",
+    year: "2020-now",
+    company: "",
+    icon: HiOutlineSquare3Stack3D,
+    type: "highlight",
+  },
+  {
+    title: "4+ Years Experience",
+    subTitle: "4+ years experience building scalable frontend systems in e-learning environments.",
+    year: "2020-now",
+    company: "",
     icon: HiOutlineStar,
-    type: "award",
-  },
-  {
-    title: "AI Hackathon · Paperflite",
-    company: "Paperflite",
-    year: "2024",
-    subTitle:
-      "Co‑created a CLI tool for front end that auto generated unit tests using Gemini 3.1.",
-    icon: HiOutlineCodeBracketSquare,
-    type: "award",
-  },
-  {
-    title: "Milestone Achiever · TCS AI Hackathon",
-    company: "Tata Consultancy Services",
-    year: "2025",
-    subTitle:
-      "Built AI-driven workflows for the Lloyds Banking Group project, integrating MCP servers and tools.",
-    icon: HiOutlineFlag,
-    type: "award",
-  },
-  {
-    title: "Award for being a significant contributor",
-    company: "Tata Consultancy Services",
-    year: "2025",
-    subTitle:
-      "Got appreciation from the manager for making signifnificant impact on a short span of time, contrinuting to various deliverables",
-    icon: HiOutlineBadgeCheck,
-    type: "award",
-  },
-  {
-    title: "Winner in Beyond the stack hackathon challenge",
-    year: "2026",
-    company: "Tata Consultancy Services",
-    subTitle:
-      "Winner in Fortnightly challenge in beyond the stack hackathon series",
-    icon: HiOutlineTrophy,
-    type: "award",
+    type: "highlight",
   },
 ];
 

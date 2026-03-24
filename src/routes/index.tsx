@@ -9,14 +9,14 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import { lazy, Suspense } from "react";
-import CollaboratePanel from "../components/Collaborate";
+// import CollaboratePanel from "../components/Collaborate";
 import { useAppContext } from "../context/AppContext";
 import Footer from "../components/Footer";
 
 import { manifest } from "./manifest";
 
 export function AppRoutes() {
-  const { isCollaborateOpen, closeCollaborate } = useAppContext();
+  // const { isCollaborateOpen, closeCollaborate } = useAppContext();
   const Experience = lazy(() => import("../pages/Experience"));
   const ImageGallery = lazy(() => import("../pages/ImageGallery"));
 
@@ -29,7 +29,7 @@ export function AppRoutes() {
         smoothWheel: true,
       }}
     >
-      <CollaboratePanel isOpen={isCollaborateOpen} onClose={closeCollaborate} />
+      {/* <CollaboratePanel isOpen={isCollaborateOpen} onClose={closeCollaborate} /> */}
       <Analytics />
       <SpeedInsights />
       <Fade

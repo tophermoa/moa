@@ -5,11 +5,11 @@ import { MdArrowRightAlt } from "react-icons/md";
 import { HiOutlineBriefcase, HiOutlineSparkles } from "react-icons/hi";
 import { HiOutlineCommandLine, HiOutlineRocketLaunch, HiOutlineFolderOpen, HiOutlineWrenchScrewdriver, HiOutlineStar } from "react-icons/hi2";
 import { HashLink } from "react-router-hash-link";
-import { useAppContext } from "../../context/AppContext";
+// import { useAppContext } from "../../context/AppContext";
 import { manifest } from "../../routes/manifest";
 
 function Dashboard({ theme }: { theme: ThemeClassSet }) {
-  const { openCollaborate } = useAppContext();
+  // const { openCollaborate } = useAppContext();
 
   return (
     <section
@@ -163,13 +163,13 @@ function Dashboard({ theme }: { theme: ThemeClassSet }) {
                 Have an idea, project, or problem to solve? I’m open to collaborating on meaningful digital products—especially in education and interactive systems.
               </p>
             </div>
-            <span
+            <a
+              href="mailto:moachristover@gmail.com"
               className="text-yellow-500/60 inline-flex text-xs text-left animated-links items-center mt-4 underline link cursor-pointer"
-              onClick={openCollaborate}
             >
               Get in touch
               <MdArrowRightAlt className="w-7 arrow text-2xl flex items-center font-extralight transition m-0" />
-            </span>
+            </a>
             <HiOutlineRocketLaunch className="h-24 w-24 absolute bottom-1 right-3 dark:text-white/5 text-yellow-500/25 group-hover:text-yellow-500/25 transition" />
           </SpotlightCard>
         </div>

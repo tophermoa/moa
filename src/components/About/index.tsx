@@ -120,8 +120,9 @@ function About({ theme }: { theme: ThemeClassSet }) {
                   onAnimationComplete={() => setStartTyping(true)}
                   className={`text-3xl lg:text-5xl font-bold mb-8 ${theme.textPrimary}  tracking-wide`}
                 >
-                  <h1 className={`${theme.textPrimary}`}>{"Hi, I am "}</h1>
-                  <h1 className="ml-4 text-indigo-500">Moa</h1>
+                  <h3 className={`${theme.textPrimary}`}>{"Hi, I am "}</h3>
+                  <br />
+                  <h3 className="mt-4 text-indigo-500">Christover Ramanda Moa</h3>
                 </BlurText>
                 <div className="h-8 mb-8 flex items-center">
                   {startTyping && (
@@ -172,17 +173,10 @@ function About({ theme }: { theme: ThemeClassSet }) {
                   </a>
                   <a
                     className="hover:text-indigo-500"
-                    href="mailto:moa@outlook.com"
+                    href="mailto:moachristover@gmail.com"
                     target="blank"
                   >
                     <MdOutlineMailOutline />
-                  </a>
-                  <a
-                    className="hover:text-indigo-500"
-                    href="https://www.instagram.com/moa/"
-                    target="blank"
-                  >
-                    <FaInstagram />
                   </a>
                 </div>
               </>

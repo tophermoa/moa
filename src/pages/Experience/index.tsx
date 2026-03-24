@@ -1,5 +1,5 @@
 import MovingGradient from "../../components/Backgrounds/MovingGradient";
-import Testimonials from "../../components/Testimonials";
+// import Testimonials from "../../components/Testimonials";
 import Awards from "../../components/Awards";
 import WorkExperience from "../../components/WorkExperience/WorkExperience";
 import Skills from "../../components/Skills";
@@ -12,7 +12,7 @@ function Experience() {
     <section className={`relative overflow-auto`}>
       <MovingGradient />
       <WorkExperience />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Awards />
       <Skills />
     </section>

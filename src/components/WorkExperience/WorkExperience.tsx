@@ -18,8 +18,8 @@ function WorkExperience() {
         animateBy="tags"
         direction="top"
       >
-        <p className={`${theme.textPrimary}`}>Experience in Shipping</p>
-        <span className={`${theme.textMainAccent1} ml-3`}>What Matters</span>
+        <p className={`${theme.textPrimary}`}>Experience</p>
+        <span className={`${theme.textMainAccent1} ml-3`}>Matters</span>
       </BlurText>
       <Timeline>
         {groupedExperiences.map((item, index) => (

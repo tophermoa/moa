@@ -40,8 +40,7 @@ function Awards() {
         animateBy="tags"
         direction="top"
       >
-        <p className={`${theme.textPrimary}`}> Highlights and </p>
-        <span className={`${theme.textMainAccent1} ml-3`}>Honors</span>
+        <p className={`${theme.textPrimary}`}> Highlights</p>
       </BlurText>
       <motion.div
         className="grid w-full gird-cols-2 gap-10 lg:grid-cols-3 mt-16"
