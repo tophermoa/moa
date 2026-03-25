@@ -205,34 +205,31 @@ export const skills: skill[][] = [
 
 export const educationItems: education[] = [
   {
-    title: "B.Sc. Computer Science · RKM Vivekananda College",
-    subTitle: "2018 – 2021 · First Class with Distinction",
+    title: "Universitas Komputer Indonesia",
+    subTitle: "2016 - 2020 · Informatics Engineering",
   },
   {
-    title: "High School · SBMHSS",
-    subTitle: "2017 – 2018 · First Class with Distinction",
+    title: "UNIKOM Student Representative Council",
+    subTitle: "2018 - 2019 · Member of Commission II",
   },
   {
-    title: "Beyond the classroom",
-    subTitle:
-      "Placement coordinator in college, top scorer in my department, and district physics symposium medalist.",
+    title: "SMA Tarsisius Vireta Tangerang",
+    subTitle: "2013 - 2016 · Science Major",
   },
 ];
 
 export const interests: string[] = [
-  "Automation",
-  "Editing",
-  "F1",
-  "Frontend development",
-  "Fitness and Health",
+  "Frontend",
+  "Technology",
+  "UX",
+  "Music",
   "Football",
+  "Economics",
+  "Finance",
   "Gaming",
-  "Gen AI",
-  "Movies and TV shows",
-  "Physics",
-  "Photography",
-  "Travel",
-  "UI-UX",
+  "Film",
+  "Cars",
+  "Fitness"
 ];
 
 export const testimonials: testimonial[] = [
@@ -422,4 +419,110 @@ export const roleModelsData: roleModels[] = [
     image:
       "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/avatar/nolan.webp",
   },
+];
+
+import type { Project } from "../types";
+
+export const projectsData: Project[] = [
+  {
+    title: "E-Commerce Platform",
+    description: "A scalable React application for online retail.",
+    image: "https://picsum.photos/400/250?random=1",
+    galleryImages: [
+      "https://picsum.photos/800/600?random=11",
+      "https://picsum.photos/800/600?random=12",
+      "https://picsum.photos/800/600?random=13"
+    ],
+    techStack: [
+      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
+      { name: "Node.js", colorClass: "text-green-400 bg-green-400" },
+      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" }
+    ],
+    githubUrl: "https://github.com/tophermoa"
+  },
+  {
+    title: "Task Management App",
+    description: "Collaborative tool for teams using Node js.",
+    image: "https://picsum.photos/400/250?random=2",
+    galleryImages: [
+      "https://picsum.photos/800/600?random=21",
+      "https://picsum.photos/800/600?random=22",
+      "https://picsum.photos/800/600?random=23"
+    ],
+    techStack: [
+      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
+      { name: "Node.js", colorClass: "text-green-400 bg-green-400" },
+      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" }
+    ],
+    githubUrl: "https://github.com/tophermoa"
+  },
+  {
+    title: "Data Visualization Dashboard",
+    description: "Interactive charts and graphs with D3.js.",
+    image: "https://picsum.photos/400/250?random=3",
+    galleryImages: [
+      "https://picsum.photos/800/600?random=31",
+      "https://picsum.photos/800/600?random=32",
+      "https://picsum.photos/800/600?random=33"
+    ],
+    techStack: [
+      { name: "D3.js", colorClass: "text-orange-400 bg-orange-400" },
+      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" },
+      { name: "TypeScript", colorClass: "text-blue-500 bg-blue-500" },
+      { name: "Tailwind CSS", colorClass: "text-cyan-400 bg-cyan-400" }
+    ],
+    githubUrl: "https://github.com/tophermoa"
+  },
+  {
+    title: "Technology Platform",
+    description: "A scalable React application using Node js.",
+    image: "https://picsum.photos/400/250?random=4",
+    galleryImages: [
+      "https://picsum.photos/800/600?random=41",
+      "https://picsum.photos/800/600?random=42",
+      "https://picsum.photos/800/600?random=43"
+    ],
+    techStack: [
+      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
+      { name: "Node.js", colorClass: "text-green-400 bg-green-400" },
+      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" }
+    ],
+    githubUrl: "https://github.com/tophermoa"
+  },
+  {
+    title: "Task Merge App",
+    description: "Collaborative for teams using Node js.",
+    image: "https://picsum.photos/400/250?random=5",
+    galleryImages: [
+      "https://picsum.photos/800/600?random=51",
+      "https://picsum.photos/800/600?random=52",
+      "https://picsum.photos/800/600?random=53"
+    ],
+    techStack: [
+      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
+      { name: "Node.js", colorClass: "text-green-400 bg-green-400" }
+    ],
+    githubUrl: "https://github.com/tophermoa"
+  },
+  {
+    title: "Data Dashboard",
+    description: "Protective chart and graphs with D3 js.",
+    image: "https://picsum.photos/400/250?random=6",
+    galleryImages: [
+      "https://picsum.photos/800/600?random=61",
+      "https://picsum.photos/800/600?random=62",
+      "https://picsum.photos/800/600?random=63"
+    ],
+    techStack: [
+      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
+      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" },
+      { name: "Tailwind CSS", colorClass: "text-cyan-400 bg-cyan-400" }
+    ],
+    githubUrl: "https://github.com/tophermoa"
+  }
 ];

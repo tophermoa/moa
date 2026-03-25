@@ -116,3 +116,17 @@ export interface roleModels {
   description: string;
   image?: string;
 }
+
+export type TechBadge = {
+  name: string;
+  colorClass: string;
+};
+
+export interface Project {
+  title: string;
+  description: string;
+  image: string;
+  galleryImages: string[];
+  techStack: TechBadge[];
+  githubUrl: string;
+}
