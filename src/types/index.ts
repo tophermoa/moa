@@ -114,5 +114,5 @@ export interface roleModels {
   name: string;
   title: string;
   description: string;
-  image: string;
+  image?: string;
 }

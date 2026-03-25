@@ -16,13 +16,13 @@ function RoleModels() {
         animateBy="tags"
         direction="top"
       >
-        <p className={`text-center inline ${theme.textPrimary}`}> People who</p>
+        <p className={`text-center inline ${theme.textPrimary}`}> Role Models Who</p>
         <span className={`${theme.textMainAccent1} ml-3`}>
-          shape my thinking
+          Inspire My Growth
         </span>
       </BlurText>
 
-      <section className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
+      <section className="mt-16 flex flex-wrap justify-center gap-8 text-white">
         {roleModelsData.map((item, index) => (
           <InspirationCard key={index} item={item} />
         ))}

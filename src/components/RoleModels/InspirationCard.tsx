@@ -14,15 +14,26 @@ const InspirationCard = ({ item }: { item: roleModels }) => {
     >
       {/* Image */}
 
-      <motion.img
-        src={item.image}
-        className={`absolute inset-0 w-full h-full object-cover ${item.name === "Peter Mckinon" ? "object-left" : "object-center"}`}
-        animate={{
-          scale: open ? 1.02 : 1,
-          filter: open ? "blur(8px)" : "blur(0px)",
-        }}
-        transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      />
+      {item.image ? (
+        <motion.img
+          src={item.image}
+          className={`absolute inset-0 w-full h-full object-cover ${item.name === "Peter Mckinon" ? "object-left" : "object-center"}`}
+          animate={{
+            scale: open ? 1.02 : 1,
+            filter: open ? "blur(8px)" : "blur(0px)",
+          }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        />
+      ) : (
+        <motion.div
+          className="absolute inset-0 w-full h-full bg-gradient-to-br from-slate-800 to-slate-900"
+          animate={{
+            scale: open ? 1.02 : 1,
+            filter: open ? "blur(8px)" : "blur(0px)",
+          }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        />
+      )}
       {!open && (
         <button
           onClick={() => setOpen(true)}

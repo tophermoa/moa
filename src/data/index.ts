@@ -380,180 +380,6 @@ export const album: Album[] = [
     title: "Heart's game",
     description: "one simple heart stealing the frame.",
   },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image22.webp",
-    title: "Bird's watch",
-    description: "A tiny lookout post for one very patient bird",
-  },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image1.webp",
-    title: "Golden hour",
-    description: "Sunsets and shilloutes",
-  },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image2.webp",
-    title: "Purple",
-    description: "Aubergine and purple",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image3.webp",
-    title: "Concrete Grid",
-    description: "Symmetric pattern and concrete chambers",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image6.webp",
-    title: "Floodlights",
-    description: "Steel and bulbs, staring back at the clouds",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image15.webp",
-    title: "Mailboxes",
-    description: "Letters and numbers pretending to sort out our mess",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image5.webp",
-    title: "Clippings",
-    description: "Color coded clips, hanging out to dry",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image32.webp",
-    title: "Framed quiet",
-    description:
-      "Rust, grills, and a frame that’s seen more seasons than views",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image33.webp",
-    title: "The Yellow Wall",
-    description: "Yellow noise, blue pause, boxed into a perfect little frame",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image9.webp",
-    title: "Valley",
-    description: "Hills exhaling under a sky that can’t make up its mind",
-  },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image17.webp",
-    title: "Loose change",
-    description: "Coins and notes, quietly keeping score in a corner drawer",
-  },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image18.webp",
-    title: "Fireflies",
-    description: "Lights on the water, like fireflies that forgot to flicker",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image19.webp",
-    title: "Boundaries",
-    description:
-      "One box for roots, one for ripeness, a neat border in between",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image20.webp",
-    title: "The Blue house",
-    description:
-      "One blue house trying a little harder than the rest of the street",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image24.webp",
-    title: "Old Stories",
-    description:
-      "Faded white, red doors, and a hallway full of leftover echoes",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image26.webp",
-    title: "Entropy",
-    description: "Order on paper, entropy in motion between stations",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image28.webp",
-    title: "Stacked",
-    description: "Color coded crates playing Tetris in the back of reality.",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image31.webp",
-    title: "White town",
-    description: "A small square of shade in a sunburnt wall",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image29.webp",
-    title: "Red Threshold",
-    description: "Weathered wood, and a threshold that’s seen it all",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image4.webp",
-    title: "Borrowed light",
-    orientation: "portrait",
-    description: "A small flame holding back the dark",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image7.webp",
-    title: "Sky on fire",
-    orientation: "portrait",
-    description: "The sky pretending it’s a canvas for once”",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image8.webp",
-    title: "Gradient",
-    orientation: "portrait",
-    description: "who needs CSS for graidents",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image11.webp",
-    title: "Jet smoke",
-    orientation: "portrait",
-    description: "Cyan skies and Jet smokes",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image16.webp",
-    title: "Neon blocks",
-    orientation: "portrait",
-    description: "Geometry dressed up in blue and orange for the night shift",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image25.webp",
-    title: "Symmetry",
-    orientation: "portrait",
-    description: "One person and a mirrored corridor",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image27.webp",
-    title: "Blue tunnel",
-    orientation: "portrait",
-    description:
-      "One person folded into a blue corridor, scrolling their way out",
-  },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image30.webp",
-    title: "Door 89",
-    orientation: "portrait",
-    description: "Dressed in white and accidental blue",
-  },
-
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image35.webp",
-    title: "Sanctum Sanctorum",
-    orientation: "portrait",
-    description:
-      "A tower of gods and colors, rising like a crown above the street",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image36.webp",
-    title: "Cyan Facade",
-    orientation: "portrait",
-    description: "Weathered blue, small lock louder than the street",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/full/image37.webp",
-    title: "Victorian Hall",
-    description: "Ornate stone holding court under restless clouds",
-    orientation: "portrait",
-  },
 ];
 
 export const processedAlbum: prcocessedimages[] = album.map((item) => ({
@@ -572,32 +398,22 @@ export const roleModelsData: roleModels[] = [
       "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/avatar/jobs.webp",
   },
   {
-    name: "Cristiano Ronaldo",
-    title: "Relentless under pressure",
-    description: `Counted out time and again, yet he responds with performance. When the moment demands belief, he delivers.`,
-    image:
-      "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/avatar/cristiano.webp",
+    name: "Tom Lembong",
+    title: "Strategic Thinking & Economic Insight",
+    description: "He represents a forward-thinking mindset grounded in data and global awareness. From him, I value the ability to think critically about systems, adapt to economic change, and approach challenges with both analytical depth and pragmatic execution.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Thomas_Lembong_%28cropped%29.jpg",
   },
   {
-    name: "Bruce Lee",
-    title: "Mastery through discipline",
-    description: `Relentless focus. Constant refinement. His philosophy of “be like water” teaches adaptability without losing strength.`,
-    image:
-      "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/avatar/brucelee.webp",
+    name: "Alex Ferguson",
+    title: "Leadership, Discipline & Team Building",
+    description: "His legacy reflects exceptional leadership through consistency, discipline, and the ability to build winning teams over time. I learn the importance of long-term vision, managing people effectively, and maintaining high standards in any environment.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Sir_Alex_Ferguson_2016.png",
   },
   {
-    name: "Peter McKinnon",
-    title: "Story-driven creativity",
-    description: `Believes that an image without story is just noise. Creates not for algorithms, but for emotion and narrative. I owe one to him for inspiring me to shoot`,
-    image:
-      "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/avatar/mckinon.webp",
-  },
-  {
-    name: "Lewis Hamilton",
-    title: "Elite composure",
-    description: `Pressure reveals character. Precision sustains dominance. He taught me that losing with composure can demand more strength than winning.`,
-    image:
-      "https://cdn.jsdelivr.net/gh/gokul-369/digital-canvas/src/assets/avatar/lewis.webp",
+    name: "Gita Wirjawan",
+    title: "Lifelong Learning & Global Perspective",
+    description: "He embodies intellectual curiosity and a global mindset. His approach encourages continuous learning, open dialogue, and the ability to connect ideas across disciplines to create meaningful impact.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/39/Gita_Wirjawan_at_Global_Sustainable_Development_Congress%2C_Nottingham.jpg",
   },
   {
     name: "Christopher Nolan",
