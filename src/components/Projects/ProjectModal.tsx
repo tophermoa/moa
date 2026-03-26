@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGithub, FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import type { Project } from "../../types";
@@ -38,7 +39,9 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
     setCurrentIndex((prev) => (prev === 0 ? project.galleryImages.length - 1 : prev - 1));
   }, [project]);
 
-  return (
+  if (typeof document === "undefined") return null;
+
+  return createPortal(
     <AnimatePresence>
       {isOpen && project && (
         <motion.div
@@ -46,8 +49,9 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6"
+          className="fixed inset-0 z-[9999] flex items-center justify-center p-4 sm:p-6"
           onClick={onClose}
+          data-lenis-prevent="true"
         >
           {/* Backdrop */}
           <div className="absolute inset-0 bg-black/60 backdrop-blur-md" />
@@ -71,7 +75,7 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
             </button>
 
             {/* Carousel Section (Top Half) */}
-            <div className="relative w-full h-[40vh] sm:h-[50vh] bg-black overflow-hidden group">
+            <div className="relative w-full h-[40vh] sm:h-[50vh] flex-shrink-0 bg-black overflow-hidden group">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={currentIndex}
@@ -118,7 +122,7 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
             </div>
 
             {/* Content Section (Bottom Half) */}
-            <div className="p-6 sm:p-8 flex flex-col gap-6 overflow-y-auto">
+            <div className="p-6 sm:p-8 flex flex-col gap-6 overflow-y-auto flex-1 min-h-0" data-lenis-prevent="true">
               <div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">{project.title}</h2>
                 <div className="flex flex-wrap gap-2 mt-4">
@@ -155,7 +159,8 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
           </motion.div>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 };
 
