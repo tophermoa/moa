@@ -425,104 +425,93 @@ import type { Project } from "../types";
 
 export const projectsData: Project[] = [
   {
-    title: "E-Commerce Platform",
-    description: "A scalable React application for online retail.",
-    image: "https://picsum.photos/400/250?random=1",
+    title: "e-Learning LMS Web",
+    description: "A platform for improving competency complete with a full Learning Management System (LMS) that can be accessed on Android, iOS, and Web-based devices. Features SCORM support.",
+    image: "/projects/e-learning.png",
     galleryImages: [
-      "https://picsum.photos/800/600?random=11",
-      "https://picsum.photos/800/600?random=12",
-      "https://picsum.photos/800/600?random=13"
+      "/projects/e-learning-1.png",
+      "/projects/e-learning-2.png",
+      "/projects/e-learning-3.png",
+      "/projects/e-learning-4.png"
     ],
     techStack: [
-      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "React js", colorClass: "text-blue-400 bg-blue-400" },
       { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
-      { name: "Node.js", colorClass: "text-green-400 bg-green-400" },
-      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" }
+      { name: "VITE", colorClass: "text-purple-500 bg-purple-500" },
+      { name: "gulp", colorClass: "text-red-500 bg-red-500" }
     ],
-    githubUrl: "https://github.com/tophermoa"
+    githubUrl: "https://github.com/tophermoa/e-Learning-LMS-Web"
   },
   {
-    title: "Task Management App",
-    description: "Collaborative tool for teams using Node js.",
-    image: "https://picsum.photos/400/250?random=2",
+    title: "PharmaStock",
+    description: "A modern, responsive frontend User Interface template built for Pharmacy Inventory Management Systems. Features multiple dashboard screens.",
+    image: "/projects/pharma-stock.png",
     galleryImages: [
-      "https://picsum.photos/800/600?random=21",
-      "https://picsum.photos/800/600?random=22",
-      "https://picsum.photos/800/600?random=23"
+      "/projects/pharma-stock-1.png",
+      "/projects/pharma-stock-2.png",
+      "/projects/pharma-stock-3.png",
+      "/projects/pharma-stock-4.png"
     ],
     techStack: [
-      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
-      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
-      { name: "Node.js", colorClass: "text-green-400 bg-green-400" },
-      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" }
-    ],
-    githubUrl: "https://github.com/tophermoa"
-  },
-  {
-    title: "Data Visualization Dashboard",
-    description: "Interactive charts and graphs with D3.js.",
-    image: "https://picsum.photos/400/250?random=3",
-    galleryImages: [
-      "https://picsum.photos/800/600?random=31",
-      "https://picsum.photos/800/600?random=32",
-      "https://picsum.photos/800/600?random=33"
-    ],
-    techStack: [
-      { name: "D3.js", colorClass: "text-orange-400 bg-orange-400" },
-      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" },
-      { name: "TypeScript", colorClass: "text-blue-500 bg-blue-500" },
+      { name: "React 18", colorClass: "text-blue-400 bg-blue-400" },
+      { name: "Vite", colorClass: "text-purple-500 bg-purple-500" },
+      { name: "React Router", colorClass: "text-red-400 bg-red-400" },
       { name: "Tailwind CSS", colorClass: "text-cyan-400 bg-cyan-400" }
     ],
-    githubUrl: "https://github.com/tophermoa"
+    githubUrl: "https://github.com/tophermoa/pharma-stock"
   },
   {
-    title: "Technology Platform",
-    description: "A scalable React application using Node js.",
-    image: "https://picsum.photos/400/250?random=4",
+    title: "Parallax Infographic Learning Content",
+    description: "An interactive learning content format that presents information using smooth parallax effects during scrolling or page transitions.",
+    image: "/projects/parallax.png",
     galleryImages: [
-      "https://picsum.photos/800/600?random=41",
-      "https://picsum.photos/800/600?random=42",
-      "https://picsum.photos/800/600?random=43"
+      "/projects/parallax-1.png",
+      "/projects/parallax-2.png",
+      "/projects/parallax-3.png",
+      "/projects/parallax-4.png"
     ],
     techStack: [
-      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
-      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
-      { name: "Node.js", colorClass: "text-green-400 bg-green-400" },
-      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" }
+      { name: "HTML", colorClass: "text-orange-500 bg-orange-500" },
+      { name: "CSS", colorClass: "text-blue-500 bg-blue-500" },
+      { name: "JavaScript", colorClass: "text-yellow-400 bg-yellow-400" },
+      { name: "AOS.js", colorClass: "text-green-400 bg-green-400" }
     ],
-    githubUrl: "https://github.com/tophermoa"
+    githubUrl: "https://github.com/tophermoa/Parallax-Infographic-Learning-Content"
   },
   {
-    title: "Task Merge App",
-    description: "Collaborative for teams using Node js.",
-    image: "https://picsum.photos/400/250?random=5",
+    title: "Digital Comic Learning Content",
+    description: "An interactive learning content format designed to help learners understand information through a story-driven comic experience.",
+    image: "/projects/digital-comic.png",
     galleryImages: [
-      "https://picsum.photos/800/600?random=51",
-      "https://picsum.photos/800/600?random=52",
-      "https://picsum.photos/800/600?random=53"
+      "/projects/digital-comic-1.png",
+      "/projects/digital-comic-2.png",
+      "/projects/digital-comic-3.png",
+      "/projects/digital-comic-4.png"
     ],
     techStack: [
-      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
-      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
-      { name: "Node.js", colorClass: "text-green-400 bg-green-400" }
+      { name: "HTML", colorClass: "text-orange-500 bg-orange-500" },
+      { name: "SCSS", colorClass: "text-pink-400 bg-pink-400" },
+      { name: "vanilla JS", colorClass: "text-yellow-400 bg-yellow-400" },
+      { name: "jQuery", colorClass: "text-blue-600 bg-blue-600" }
     ],
-    githubUrl: "https://github.com/tophermoa"
+    githubUrl: "https://github.com/tophermoa/Digital-Comic-Learning-Content"
   },
   {
-    title: "Data Dashboard",
-    description: "Protective chart and graphs with D3 js.",
-    image: "https://picsum.photos/400/250?random=6",
+    title: "Q&A Checkpoint Learning Content",
+    description: "An interactive learning content type that allows learners to answer a series of questions presented at each checkpoint.",
+    image: "/projects/qna.png",
     galleryImages: [
-      "https://picsum.photos/800/600?random=61",
-      "https://picsum.photos/800/600?random=62",
-      "https://picsum.photos/800/600?random=63"
+      "/projects/qna-1.png",
+      "/projects/qna-2.png",
+      "/projects/qna-3.png",
+      "/projects/qna-4.png"
     ],
     techStack: [
-      { name: "React", colorClass: "text-blue-400 bg-blue-400" },
-      { name: "Redux", colorClass: "text-purple-400 bg-purple-400" },
-      { name: "MongoDB", colorClass: "text-emerald-400 bg-emerald-400" },
-      { name: "Tailwind CSS", colorClass: "text-cyan-400 bg-cyan-400" }
+      { name: "HTML", colorClass: "text-orange-500 bg-orange-500" },
+      { name: "CSS", colorClass: "text-blue-500 bg-blue-500" },
+      { name: "JavaScript", colorClass: "text-yellow-400 bg-yellow-400" },
+      { name: "JSON", colorClass: "text-slate-400 bg-slate-400" }
     ],
-    githubUrl: "https://github.com/tophermoa"
+    githubUrl: "https://github.com/tophermoa/QnA-Checkpoint-Learning-Content"
   }
 ];
